@@ -1,0 +1,16 @@
+## NetProjects
+
+We build the software behind our sites ourselves. We also publish open MLX ports of models we use, so they run locally on a Mac with no cloud and no API keys.
+
+**Open MLX model ports** (weights on [huggingface.co/netprojects](https://huggingface.co/netprojects), tested on an Apple M5 Max, 128 GB)
+
+| Repo | Model | Builds |
+|---|---|---|
+| [h2o-lightning-mlx](https://github.com/internet-projects/h2o-lightning-mlx) | H2O.ai H2O-Lightning-4B: small calibrated decision model, two-way reading | [8-bit](https://huggingface.co/netprojects/h2o-lightning-4b-mlx-q8) · [4-bit](https://huggingface.co/netprojects/h2o-lightning-4b-mlx-q4) |
+| [glide-mlx](https://github.com/internet-projects/glide-mlx) | Fastino GLiDE 26B: calibrated decision model (choice / yes-no / score) | [8-bit](https://huggingface.co/netprojects/GLiDE-mlx-8bit) · [4-bit](https://huggingface.co/netprojects/GLiDE-mlx-4bit) |
+| [granite-switch-mlx](https://github.com/internet-projects/granite-switch-mlx) | IBM Granite Switch 4.1.1: chat, decision and guardian adapters | 8B [8-bit](https://huggingface.co/netprojects/granite-switch-4.1-8b-mlx-8bit) · [4-bit](https://huggingface.co/netprojects/granite-switch-4.1-8b-mlx-4bit) · 30B [8-bit](https://huggingface.co/netprojects/granite-switch-4.1-30b-mlx-8bit) · [4-bit](https://huggingface.co/netprojects/granite-switch-4.1-30b-mlx-4bit) |
+| [autotrust-jev35b-mlx](https://github.com/internet-projects/autotrust-jev35b-mlx) | AutoTrust JEV-35B: decision model with vision | [8-bit](https://huggingface.co/netprojects/AutoTrust-JEV-35B-mlx-8bit) · [4-bit mixed](https://huggingface.co/netprojects/AutoTrust-JEV-35B-mlx-4bit-mixed) · [3-bit mixed](https://huggingface.co/netprojects/AutoTrust-JEV-35B-mlx-3bit-mixed) |
+| [autotrust-jev27b-mlx](https://github.com/internet-projects/autotrust-jev27b-mlx) | AutoTrust-JEV-27B v1.1: decision model with bidirectional prompt reading | [8-bit](https://huggingface.co/netprojects/AutoTrust-JEV-27B-v1.1-mlx-8bit) · [4-bit](https://huggingface.co/netprojects/AutoTrust-JEV-27B-v1.1-mlx-4bit) |
+| [dory-mlx](https://github.com/internet-projects/dory-mlx) | NVIDIA Nemotron-Labs Dory 1.0 4B: looped reasoning LM | [8-bit](https://huggingface.co/netprojects/nemotron-dory1.0-4b-mlx-8bit) · [bf16](https://huggingface.co/netprojects/nemotron-dory1.0-4b-mlx-bf16) |
+
+All builds in one place: the [NetProjects MLX builds collection](https://huggingface.co/collections/netprojects/netprojects-mlx-builds-6ae3b2683a59a1b4fc4c0c3a). Website: [netprojects.com](https://netprojects.com).
